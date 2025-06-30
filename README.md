@@ -5,14 +5,25 @@ Este repositório explica conceitos essenciais de **POO (Programação Orientada
 ---
 # 👨‍👧 Herança: Explicação simples
 **Herança é como quando um filho herda coisas do pai ou da mãe.**
+
+
 Na programação, uma classe filha herda coisas (características e habilidades) de uma classe mãe (superclasse).
 
 ### Exemplo com animais
 Imagine:
-  -Animal é a classe mãe.
-    -Todo animal sabe comer e dormir.
+
+
+  - Animal é a classe mãe.
+
+    - Todo animal sabe comer e dormir.
+
+    
   - Cachorro é a classe filha.
+
+
     - Ele herda comer e dormir do Animal.
+   
+      
     - E ainda ganha a habilidade de latir.
 
 ✅ Assim:  
@@ -52,10 +63,14 @@ class Cachorro extends Animal {
 
 ### Em palavras bem simples:
 A classe filha pega as coisas prontas da classe mãe e ainda pode ter as suas próprias coisas.
+
+
 Ou seja: "É como quando você herda os olhos da mamãe e o cabelo do papai, mas também tem seu próprio jeito de falar e brincar!"
 
 ---
 # 🎭 Polimorfismo: Explicação simples
+
+
 **Polimorfismo é quando coisas diferentes sabem fazer a mesma coisa, mas cada uma do seu jeitinho.**
 
 🐾 Exemplo com animais
@@ -111,11 +126,17 @@ class Coelho extends Animal {
 
 ✅ Só quem tiver a chave certa pode abrir ou mudar o que está dentro.
 
-🗃️ Exemplo com brinquedos
-Imagina:
-Você tem uma caixa de brinquedos.
-Os brinquedos estão guardados dentro, ninguém pega sem abrir.
-Você mesmo decide quando e como abrir a caixa para pegar ou colocar brinquedos.
+
+🗃️ Exemplo com brinquedos:
+
+
+  - Você tem uma caixa de brinquedos.
+
+
+  - Os brinquedos estão guardados dentro, ninguém pega sem abrir.
+
+
+  - Você mesmo decide quando e como abrir a caixa para pegar ou colocar brinquedos.
 
 ✅ Em POO:
 
