@@ -383,11 +383,15 @@ public class Usuario {
 ```
 
 👉 Resumidamente:
-**Getter:** serve para pegar/ler uma informação do objeto.
-**Setter:** serve para mudar/atualizar uma informação do objeto.
 
-🌟 Getter and Setter: Imaginando o personagem
-Pensa assim: você tem a figura de ação que já tem nome, email, senha, id.
+
+  - **Getter:** serve para pegar/ler uma informação do objeto.
+
+
+  - **Setter:** serve para mudar/atualizar uma informação do objeto.
+
+
+🤔 **Pensa assim:** você tem a figura de ação que já tem nome, email, senha, id.
 
 ✅ Getter = “olhar a etiqueta”
 
@@ -395,13 +399,13 @@ Pensa assim: você tem a figura de ação que já tem nome, email, senha, id.
 É como se você lesse o que está escrito na etiqueta ou na roupa do boneco:
 
 
-“Qual o nome dele?”
+  - “Qual o nome dele?”
 
 
-“Qual o email?”
+  - “Qual o email?”
 
 
-“Qual o id?”
+  - “Qual o id?”
 
 Você chama usuario.getNome() e ele devolve o nome.
 ```java
@@ -415,13 +419,13 @@ public String getNome() {
 
 É como se você colasse uma nova etiqueta ou trocasse a roupa do boneco:
 
-“Vou mudar o nome dele para Batman!”
+  - “Vou mudar o nome dele para Batman!”
 
 
-“Vou trocar o email.”
+  - “Vou trocar o email.”
 
 
-“Vou dar uma nova senha.”
+  - “Vou dar uma nova senha.”
 
 Você chama usuario.setNome("Batman") e pronto: o nome mudou!
 ```java
